@@ -2,7 +2,7 @@
 
 /*
 Split : split( separator , limit )
-Slice : slice( Start, End )
+Slice : slice( Start[Mandatory], End [Optional] )
 */
 
 /*
@@ -149,7 +149,7 @@ console.log(typeof(mySlicedString));
 
 var myMainString = " I Love JavaScript And JSON",
 
-mySlicedString = myMainString.slice(1, 10);
+mySlicedString = myMainString.slice(1);
 
 console.log(mySlicedString);
 
