@@ -283,10 +283,24 @@ console.log(mySubString);
 console.log(typeof(mySubString));
 */
 
-
+/*
 var myMainString = " I Love JavaScript And JSON",
 
 mySubString = myMainString.substring(2, 7);
+
+console.log(mySubString);
+
+console.log(typeof(myMainString));
+
+
+console.log(mySubString);
+
+console.log(typeof(mySubString));
+*/
+
+var myMainString = " I Love JavaScript And JSON",
+
+mySubString = myMainString.substring(7, 18);
 
 console.log(mySubString);
 
