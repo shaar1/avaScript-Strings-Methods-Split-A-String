@@ -2,8 +2,13 @@
 
 /*
 Split : split( separator , limit )
-Slice : slice( Start[Mandatory], End [Optional] )
-SubStr : substr (star, length)
+
+Slice : slice( Start [Reguired], End [Optional] )
+
+SubStr : substr (star [Reguired], length[ Optional])
+
+SubString : SubString (star [Reguired], End [Optional])
+
 */
 
 /*
@@ -219,7 +224,7 @@ console.log(mySubString);
 console.log(typeof(mySubString));
 */
 
-
+/*
 var myMainString = " I Love JavaScript And JSON",
 
 mySubString = myMainString.substr(7, 10);
@@ -232,6 +237,66 @@ console.log(typeof(myMainString));
 console.log(mySubString);
 
 console.log(typeof(mySubString));
+*/
+
+/*
+var myMainString = " I Love JavaScript And JSON",
+
+mySubString = myMainString.substr(1, 11);
+
+console.log(mySubString);
+
+console.log(typeof(myMainString));
+
+
+console.log(mySubString);
+
+console.log(typeof(mySubString));
+*/
+
+/*
+var myMainString = " I Love JavaScript And JSON",
+
+mySubString = myMainString.substring();
+
+console.log(mySubString);
+
+console.log(typeof(myMainString));
+
+
+console.log(mySubString);
+
+console.log(typeof(mySubString));
+*/
+/*
+var myMainString = " I Love JavaScript And JSON",
+
+mySubString = myMainString.substring(1, 8);
+
+console.log(mySubString);
+
+console.log(typeof(myMainString));
+
+
+console.log(mySubString);
+
+console.log(typeof(mySubString));
+*/
+
+
+var myMainString = " I Love JavaScript And JSON",
+
+mySubString = myMainString.substring(2, 7);
+
+console.log(mySubString);
+
+console.log(typeof(myMainString));
+
+
+console.log(mySubString);
+
+console.log(typeof(mySubString));
+
 
 
 
